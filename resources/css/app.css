@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+.btn-box {
+    background-color: #111827;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn-box:hover {
+    background-color: #fbff00;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login-box a:hover {
+    background: #03e9f4;
+    color: #111827;
+    border-radius: 5px;
+    box-shadow:
+        0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+.login-box a span {
+    position: absolute;
+}
+
+.login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #fbff00);
+    animation: garisatas 1s linear infinite;
+}
+
+@keyframes garisatas {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fbff00);
+    animation: gariskanan 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes gariskanan {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, #fbff00);
+    animation: garisbawah 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes garisbawah {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fbff00);
+    animation: gariskiri 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes gariskiri {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
