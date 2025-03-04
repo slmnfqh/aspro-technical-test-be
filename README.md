@@ -91,6 +91,3 @@ http://127.0.0.1:8000
 Tutorial lengkap cara menjalankan aplikasi beserta penjelasan singkat tersedia di YouTube melalui link berikut:  
 [https://www.youtube.com/watch?v=v6c_9JEcM4o&t=106s](https://www.youtube.com/watch?v=v6c_9JEcM4o&t=106s)
 
-## Lisensi
-Proyek ini menggunakan lisensi [MIT](https://opensource.org/licenses/MIT).
-
