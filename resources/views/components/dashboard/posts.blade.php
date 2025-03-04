@@ -38,7 +38,7 @@
                                     @if ($post->deleted_at)
                                         <del class="text-gray-500">{{ $post->title }}</del>
                                     @else
-                                        {{ $post->image }}
+                                        {{ $post->title }}
                                     @endif
                                 </th>
                                 <td class="px-4 py-3 text-black">
