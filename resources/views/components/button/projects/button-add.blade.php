@@ -43,7 +43,7 @@
                 </button>
             </div>
             <!-- Modal body -->
-            <form action="/dashboard/projects" method="POST" enctype="multipart/form-data">
+            <form action="/projects" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="overflow-y-auto max-h-96 grid gap-4 mb-4 sm:grid-cols-2">
                     <div>

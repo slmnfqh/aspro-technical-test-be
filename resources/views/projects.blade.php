@@ -56,7 +56,7 @@
                 </div>
                 @auth
                     <!-- Jika user sudah login -->
-                    <x-button.posts.button-add :categories="$categories"></x-button.posts.button-add>
+                    <x-button.projects.button-add :categories="$categories"></x-button.projects.button-add>
                 @else
                     <!-- Jika user belum login -->
 
@@ -66,7 +66,7 @@
                             stroke="currentColor" class="size-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                         </svg>
-                        Add Post
+                        Add project
                     </button>
 
                     <script>
