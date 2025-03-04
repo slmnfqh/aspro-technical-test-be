@@ -1,5 +1,3 @@
-# Community-Based Web Application (Social Blogging Platform)
-
 ## Deskripsi Proyek
 Proyek ini termasuk dalam kategori **Community-Based Web Application** atau **Social Blogging Platform**. Fokus utama aplikasi ini adalah memungkinkan pengguna untuk membagikan atau memposting karya berupa **blog/post** dan **portofolio proyek** yang telah mereka buat, untuk ditampilkan dan dilihat oleh publik.
 
